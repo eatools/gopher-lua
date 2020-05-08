@@ -2,7 +2,7 @@
 package parse
 
 import (
-  "github.com/yuin/gopher-lua/ast"
+  "github.com/eatools/gopher-lua/ast"
 )
 %}
 %type<stmts> chunk
@@ -521,4 +521,5 @@ func TokenName(c int) string {
 	}
     return string([]byte{byte(c)})
 }
+
 
